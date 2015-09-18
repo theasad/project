@@ -1,0 +1,1821 @@
+/*small Mobile portrait */
+@media all and (max-width: 479px) {
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  | 						HEADER CSS 						  |
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  header nav.navbar.navbar-default {
+    text-align: center;
+    padding: 2.5px 0;
+  }
+  header nav.navbar.navbar-default .navbar-header .navbar-brand {
+    font-size: 25px;
+  }
+  /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 						HERO UNIT CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .hero-unit {
+    height: 200px;
+    background-size: cover;
+  }
+  .hero-unit .caption {
+    padding: 0;
+  }
+  .hero-unit .caption h1 {
+    font-size: 20px;
+  }
+  .hero-unit .caption p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .hero-unit .caption a {
+    padding: 10.33px 11px 10.33px 18px;
+    font-size: 25px;
+    top: 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			section-company-logo CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-company-logo {
+    padding: 20px 0 0;
+  }
+  .section-company-logo ul li {
+    width: 32.4364376%;
+    padding: 0 5px 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-about-us CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-about-us {
+    background-color: #fff;
+    padding: 5px 0 35px;
+  }
+  .section-about-us .section-heading {
+    padding-bottom: 15px;
+  }
+  .section-about-us .section-heading h2 {
+    font-size: 30px;
+  }
+  .section-about-us .section-heading p {
+    font-size: 18px;
+  }
+  .section-about-us .about-us-text {
+    text-align: center;
+  }
+  .section-about-us .about-us-text p {
+    font-size: 14px;
+    padding-right: 0;
+    margin-top: 10px;
+  }
+  .section-about-us .about-us-text .read-more-btn {
+    top: 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-services CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-services {
+    background-color: #d8d8d8;
+    padding: 5px 0 0px;
+    margin-bottom: 0px;
+  }
+  .section-services .section-heading {
+    padding-bottom: 15px;
+  }
+  .section-services .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-services .section-heading p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .section-services .services-box {
+    text-align: center;
+    display: block;
+  }
+  .section-services .services-box .icon {
+    font-size: 25px;
+    padding: 37.5px;
+    position: relative;
+  }
+  .section-services .services-box .service-feature {
+    padding: 0;
+    float: none;
+  }
+  .section-services .services-box .service-feature h3 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #555;
+    margin-top: 10px;
+  }
+  .section-services .services-box .service-feature p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #555;
+    line-height: 24px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-how-it-work CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-how-it-work {
+    background-color: #fff;
+    padding: 5px 0 10px;
+    margin-bottom: 0px;
+  }
+  .section-how-it-work .section-heading {
+    padding-bottom: 35px;
+  }
+  .section-how-it-work .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-how-it-work .how-it-work-figure {
+    text-align: center;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box {
+    width: 100%;
+    display: inline-block;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box .arrow_left-right {
+    display: inline-block;
+    margin-top: 50px;
+    top: -35px;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .section-how-it-work .how-it-work-figure .icon-box h3 {
+    margin-top: 25px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			     section-pricing CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-pricing {
+    padding: 15px 0 0px;
+  }
+  .section-pricing .section-heading {
+    padding-bottom: 0px;
+    margin-bottom: -25px;
+  }
+  .section-pricing .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-pricing .section-heading p {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0;
+  }
+  .section-pricing .cd-pricing-container {
+    width: 100%;
+  }
+  .section-pricing .cd-pricing-switcher label {
+    height: 40px;
+    width: 130px;
+  }
+  .section-pricing .cd-pricing-switcher label[for="monthly-2"] {
+    padding-right: 15px;
+  }
+  .section-pricing .cd-pricing-switcher .cd-switch {
+    width: 120px;
+  }
+  .section-pricing .cd-pricing-list {
+    margin-top: 3em;
+  }
+  .section-pricing .cd-pricing-list > li {
+    width: 100%;
+    margin-right: 0;
+  }
+  .section-pricing ul.cd-pricing-wrapper {
+    list-style: none;
+    padding-left: 0;
+  }
+  .section-pricing ul.cd-pricing-wrapper > li {
+    margin-bottom: 40px;
+  }
+  .section-pricing ul.cd-pricing-wrapper.cd-pricing-wrapper .cd-pricing-header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .section-pricing ul.cd-pricing-wrapper.cd-pricing-wrapper .cd-pricing-header .cd-price {
+    margin-top: -5px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-some-fun-facts CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-some-fun-facts {
+    padding: 15px 0 0;
+  }
+  .section-some-fun-facts .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-some-fun-facts .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-some-fun-facts .section-heading p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-some-fun-facts .some-fun-fact-list {
+    padding-bottom: 30px;
+  }
+  .section-some-fun-facts .some-fun-fact-list i {
+    font-size: 50px;
+  }
+  .section-some-fun-facts .some-fun-fact-list h2 {
+    margin-top: 5px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			      section-our-team CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-our-team {
+    padding: 15px 0 20px;
+  }
+  .section-our-team .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-our-team .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-our-team .section-heading p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-our-team figure {
+    padding: 20px;
+    margin-bottom: -20px;
+  }
+  .section-our-team figure figcaption {
+    padding: 100px 90px;
+    top: 19px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			     section-happy-clients CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-happy-clients {
+    padding: 15px 0 20px;
+  }
+  .section-happy-clients .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-happy-clients .section-heading h2 {
+    font-size: 29px;
+    margin-bottom: 10px;
+  }
+  .section-happy-clients .section-heading p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-happy-clients .happy-client-carousel .item {
+    width: 100%;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail {
+    padding: 25px 15px 10px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .client-img {
+    width: 35%;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption h4 {
+    margin-top: 25px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption .footer {
+    padding-top: 5px;
+  }
+  .section-happy-clients .happy-client-carousel .owl-controls {
+    margin-top: 35px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-latest-news CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-latest-news {
+    background-color: #ffffff;
+    padding: 15px 0;
+  }
+  .section-latest-news .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-latest-news .section-heading h2 {
+    font-size: 30px;
+  }
+  .section-latest-news .thumbnail {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .section-latest-news .thumbnail .caption {
+    padding: 0;
+  }
+  .section-latest-news .thumbnail .caption p {
+    margin-top: 10px;
+  }
+  .section-latest-news .thumbnail .caption .read-more-btn {
+    margin-top: 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			   section-news-letter CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-news-letter {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .section-news-letter .input--filled .input__label-content--manami {
+    left: 30px;
+  }
+  .section-news-letter .submit-btn {
+    left: 0px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			  section-contact-us CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-contact-us .contact-container {
+    padding: 30px 0;
+  }
+  .section-contact-us .contact-container .contact-info {
+    width: 90%;
+  }
+  .section-contact-us .map-contact-form {
+    text-align: center;
+  }
+  .section-contact-us .map-contact-form .custom-width {
+    width: 100%;
+    display: inline-block;
+  }
+  .section-contact-us .map-contact-form #map-canvas {
+    height: 200px;
+  }
+  .section-contact-us .map-contact-form .contact-form {
+    position: relative;
+    padding: 0;
+  }
+  .section-contact-us .map-contact-form .contact-form h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #333;
+    font-weight: 700;
+  }
+  .section-contact-us .map-contact-form .contact-form .input {
+    max-width: 90%;
+    width: calc(88%);
+  }
+  .section-contact-us .map-contact-form .contact-form .input--filled .input__label-content--manami {
+    left: 30px;
+  }
+  .section-contact-us .map-contact-form .contact-form .text-area.input--manami .input__label--manami {
+    padding: 0 0 6.3em;
+  }
+  .section-contact-us .map-contact-form .contact-form .text-area.input--filled .input__label-content--manami {
+    top: 65px;
+    position: absolute;
+    left: 30px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			           Footer CSS 				          |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  footer .footer-container {
+    padding: 20px 0 10px;
+  }
+  footer .footer-container ul li {
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+  footer .footer-container ul li a {
+    font-size: 25px;
+    color: #fff;
+  }
+  footer .footer-container p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+/* Wide Mobile Layout: 480px to 599px. */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  | 						HEADER CSS 						  |
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  header nav.navbar.navbar-default {
+    text-align: center;
+    padding: 2.5px 0;
+  }
+  header nav.navbar.navbar-default .navbar-header .navbar-brand {
+    font-size: 25px;
+  }
+  /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 						HERO UNIT CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .hero-unit {
+    background-size: cover;
+  }
+  .hero-unit .caption {
+    padding: 8% 0 0;
+  }
+  .hero-unit .caption h1 {
+    font-size: 27px;
+  }
+  .hero-unit .caption p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .hero-unit .caption a {
+    padding: 10.33px 11px 10.33px 18px;
+    font-size: 25px;
+    top: 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			section-company-logo CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-company-logo {
+    padding: 20px 0 0;
+  }
+  .section-company-logo ul li {
+    width: 19.299%;
+    padding: 0 4px 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-about-us CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-about-us {
+    background-color: #fff;
+    padding: 5px 0 35px;
+  }
+  .section-about-us .section-heading {
+    padding-bottom: 15px;
+  }
+  .section-about-us .section-heading h2 {
+    font-size: 30px;
+  }
+  .section-about-us .section-heading p {
+    font-size: 18px;
+  }
+  .section-about-us .about-us-text {
+    text-align: center;
+  }
+  .section-about-us .about-us-text p {
+    font-size: 14px;
+    padding-right: 0;
+    margin-top: 10px;
+  }
+  .section-about-us .about-us-text .read-more-btn {
+    top: 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-services CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-services {
+    background-color: #d8d8d8;
+    padding: 5px 0 0px;
+    margin-bottom: 0px;
+  }
+  .section-services .section-heading {
+    padding-bottom: 15px;
+  }
+  .section-services .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-services .section-heading p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .section-services .services-box {
+    text-align: center;
+    display: block;
+  }
+  .section-services .services-box .icon {
+    font-size: 25px;
+    padding: 37.5px;
+    position: relative;
+  }
+  .section-services .services-box .service-feature {
+    padding: 0;
+    float: none;
+  }
+  .section-services .services-box .service-feature h3 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #555;
+    margin-top: 10px;
+  }
+  .section-services .services-box .service-feature p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #555;
+    line-height: 24px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-how-it-work CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-how-it-work {
+    background-color: #fff;
+    padding: 5px 0 10px;
+    margin-bottom: 0px;
+  }
+  .section-how-it-work .section-heading {
+    padding-bottom: 35px;
+  }
+  .section-how-it-work .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-how-it-work .how-it-work-figure {
+    text-align: center;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box {
+    width: 100%;
+    display: inline-block;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box .arrow_left-right {
+    display: inline-block;
+    margin-top: 50px;
+    top: -35px;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .section-how-it-work .how-it-work-figure .icon-box h3 {
+    margin-top: 25px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			     section-pricing CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-pricing {
+    padding: 15px 0 0px;
+  }
+  .section-pricing .section-heading {
+    padding-bottom: 0px;
+    margin-bottom: -25px;
+  }
+  .section-pricing .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-pricing .section-heading p {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0;
+  }
+  .section-pricing .cd-pricing-container {
+    width: 100%;
+  }
+  .section-pricing .cd-pricing-switcher label {
+    height: 40px;
+    width: 132px;
+  }
+  .section-pricing .cd-pricing-switcher label[for="monthly-2"] {
+    padding-right: 15px;
+  }
+  .section-pricing .cd-pricing-switcher .cd-switch {
+    width: 124px;
+  }
+  .section-pricing .cd-pricing-list {
+    margin-top: 3em;
+  }
+  .section-pricing .cd-pricing-list > li {
+    width: 100%;
+    margin-right: 0;
+  }
+  .section-pricing ul.cd-pricing-wrapper {
+    list-style: none;
+    padding-left: 0;
+  }
+  .section-pricing ul.cd-pricing-wrapper > li {
+    margin-bottom: 40px;
+  }
+  .section-pricing ul.cd-pricing-wrapper.cd-pricing-wrapper .cd-pricing-header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .section-pricing ul.cd-pricing-wrapper.cd-pricing-wrapper .cd-pricing-header .cd-price {
+    margin-top: -5px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-some-fun-facts CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-some-fun-facts {
+    padding: 15px 0 0;
+  }
+  .section-some-fun-facts .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-some-fun-facts .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-some-fun-facts .section-heading p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-some-fun-facts .custom-width {
+    width: 49.5865879%;
+    display: inline-block;
+  }
+  .section-some-fun-facts .some-fun-fact-list {
+    padding-bottom: 30px;
+  }
+  .section-some-fun-facts .some-fun-fact-list i {
+    font-size: 50px;
+  }
+  .section-some-fun-facts .some-fun-fact-list h2 {
+    margin-top: 5px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			      section-our-team CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-our-team {
+    padding: 15px 0 20px;
+  }
+  .section-our-team .custom-width {
+    width: 49.58658%;
+    display: inline-block;
+  }
+  .section-our-team .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-our-team .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-our-team .section-heading p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-our-team figure {
+    padding: 20px;
+    margin-bottom: -20px;
+  }
+  .section-our-team figure figcaption {
+    padding: 58.5px 49px;
+    top: 19px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			     section-happy-clients CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-happy-clients {
+    padding: 15px 0 20px;
+  }
+  .section-happy-clients .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-happy-clients .section-heading h2 {
+    font-size: 29px;
+    margin-bottom: 10px;
+  }
+  .section-happy-clients .section-heading p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-happy-clients .happy-client-carousel .item {
+    width: 90%;
+    display: inline-block;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail {
+    padding: 25px 15px 10px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption h4 {
+    margin-top: 25px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption .footer {
+    padding-top: 5px;
+  }
+  .section-happy-clients .happy-client-carousel .owl-controls {
+    margin-top: 35px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-latest-news CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-latest-news {
+    background-color: #ffffff;
+    padding: 15px 0;
+  }
+  .section-latest-news .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-latest-news .section-heading h2 {
+    font-size: 30px;
+  }
+  .section-latest-news .thumbnail {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .section-latest-news .thumbnail .caption {
+    padding: 0;
+  }
+  .section-latest-news .thumbnail .caption p {
+    margin-top: 10px;
+  }
+  .section-latest-news .thumbnail .caption .read-more-btn {
+    margin-top: 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			   section-news-letter CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-news-letter {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .section-news-letter .input--filled .input__label-content--manami {
+    left: 5px;
+  }
+  .section-news-letter .submit-btn {
+    left: 0px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			  section-contact-us CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-contact-us .contact-container {
+    padding: 30px 0;
+  }
+  .section-contact-us .contact-container .custom-width {
+    width: 49.5865879%;
+    display: inline-block;
+  }
+  .section-contact-us .contact-container .contact-info {
+    width: 90%;
+    padding: 36.5px 0;
+  }
+  .section-contact-us .contact-container .contact-info .hidden {
+    display: inline-block !important;
+  }
+  .section-contact-us .map-contact-form {
+    text-align: center;
+  }
+  .section-contact-us .map-contact-form .custom-width {
+    width: 100%;
+    display: inline-block;
+  }
+  .section-contact-us .map-contact-form #map-canvas {
+    height: 250px;
+  }
+  .section-contact-us .map-contact-form .contact-form {
+    position: relative;
+    padding: 0;
+  }
+  .section-contact-us .map-contact-form .contact-form h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #333;
+    font-weight: 700;
+  }
+  .section-contact-us .map-contact-form .contact-form .input {
+    max-width: 90%;
+    width: calc(88%);
+  }
+  .section-contact-us .map-contact-form .contact-form .input--filled .input__label-content--manami {
+    left: 5px;
+  }
+  .section-contact-us .map-contact-form .contact-form .text-area.input--manami .input__label--manami {
+    padding: 0 0 6.36em;
+  }
+  .section-contact-us .map-contact-form .contact-form .text-area.input--filled .input__label-content--manami {
+    top: 65px;
+    position: absolute;
+    left: 5px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			           Footer CSS 				          |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  footer .footer-container {
+    padding: 20px 0 10px;
+  }
+  footer .footer-container ul li {
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+  footer .footer-container ul li a {
+    font-size: 25px;
+    color: #fff;
+  }
+  footer .footer-container p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+/* small tablet 600px to 767px*/
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  | 						HEADER CSS 						  |
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  header nav.navbar.navbar-default {
+    text-align: center;
+    padding: 5px 0;
+  }
+  header nav.navbar.navbar-default .navbar-header .navbar-brand {
+    font-size: 27px;
+  }
+  /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 						HERO UNIT CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .hero-unit {
+    height: 300px;
+    background-size: cover;
+  }
+  .hero-unit .caption {
+    padding: 5% 0 0;
+  }
+  .hero-unit .caption h1 {
+    font-size: 35px;
+  }
+  .hero-unit .caption p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .hero-unit .caption a {
+    padding: 22.09px 26px 22.09px 32px;
+    font-size: 40px;
+    top: 25px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			section-company-logo CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-company-logo {
+    padding: 20px 0 0;
+  }
+  .section-company-logo ul li {
+    width: 19.299%;
+    padding: 0 10px 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-about-us CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-about-us {
+    background-color: #fff;
+    padding: 5px 0 70px;
+  }
+  .section-about-us .section-heading {
+    padding-bottom: 15px;
+  }
+  .section-about-us .section-heading h2 {
+    font-size: 30px;
+  }
+  .section-about-us .section-heading p {
+    font-size: 18px;
+  }
+  .section-about-us .about-us-text {
+    text-align: center;
+  }
+  .section-about-us .about-us-text p {
+    font-size: 14px;
+    padding-right: 0;
+    margin-top: 25px;
+  }
+  .section-about-us .about-us-text .read-more-btn {
+    top: 25px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-services CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-services {
+    background-color: #d8d8d8;
+    padding: 5px 0 0px;
+    margin-bottom: 0px;
+  }
+  .section-services .section-heading {
+    padding-bottom: 40px;
+  }
+  .section-services .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-services .section-heading p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .section-services .custom-width {
+    width: 49.66926765441%;
+    display: inline-block;
+  }
+  .section-services .services-box {
+    text-align: center;
+    display: block;
+  }
+  .section-services .services-box .icon {
+    font-size: 25px;
+    padding: 37.5px;
+    position: relative;
+  }
+  .section-services .services-box .service-feature {
+    padding: 0;
+    float: none;
+  }
+  .section-services .services-box .service-feature h3 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #555;
+    margin-top: 10px;
+  }
+  .section-services .services-box .service-feature p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #555;
+    line-height: 24px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-how-it-work CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-how-it-work {
+    background-color: #fff;
+    padding: 5px 0 10px;
+    margin-bottom: 0px;
+  }
+  .section-how-it-work .section-heading {
+    padding-bottom: 35px;
+  }
+  .section-how-it-work .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-how-it-work .how-it-work-figure {
+    text-align: center;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box {
+    width: 19.72%;
+    float: none;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box:hover {
+    cursor: default;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box .arrow_left-right {
+    display: inline-block;
+    margin-top: 50px;
+    top: -80px;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box .icon {
+    padding: 28px;
+    font-size: 30px;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box h3 {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			     section-pricing CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-pricing {
+    padding: 15px 0 0px;
+  }
+  .section-pricing .section-heading {
+    padding-bottom: 0px;
+    margin-bottom: -25px;
+  }
+  .section-pricing .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-pricing .section-heading p {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0;
+  }
+  .section-pricing .cd-pricing-container {
+    width: 100%;
+  }
+  .section-pricing .cd-pricing-switcher label {
+    height: 40px;
+    width: 132px;
+  }
+  .section-pricing .cd-pricing-switcher label[for="monthly-2"] {
+    padding-right: 15px;
+  }
+  .section-pricing .cd-pricing-switcher .cd-switch {
+    width: 124px;
+  }
+  .section-pricing .cd-pricing-list {
+    margin-top: 3em;
+  }
+  .section-pricing .cd-pricing-list > li {
+    width: 100%;
+    margin-right: 0;
+  }
+  .section-pricing ul.cd-pricing-wrapper {
+    list-style: none;
+    padding-left: 0;
+  }
+  .section-pricing ul.cd-pricing-wrapper > li {
+    margin-bottom: 40px;
+  }
+  .section-pricing ul.cd-pricing-wrapper.cd-pricing-wrapper .cd-pricing-header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .section-pricing ul.cd-pricing-wrapper.cd-pricing-wrapper .cd-pricing-header .cd-price {
+    margin-top: -5px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-some-fun-facts CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-some-fun-facts {
+    padding: 15px 0 0;
+  }
+  .section-some-fun-facts .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-some-fun-facts .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-some-fun-facts .section-heading p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-some-fun-facts .custom-width {
+    width: 49.5865879%;
+    display: inline-block;
+  }
+  .section-some-fun-facts .some-fun-fact-list {
+    padding-bottom: 30px;
+  }
+  .section-some-fun-facts .some-fun-fact-list i {
+    font-size: 50px;
+  }
+  .section-some-fun-facts .some-fun-fact-list h2 {
+    margin-top: 5px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			      section-our-team CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-our-team {
+    padding: 15px 0 20px;
+  }
+  .section-our-team .custom-width {
+    width: 49.58658%;
+    display: inline-block;
+  }
+  .section-our-team .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-our-team .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-our-team .section-heading p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-our-team figure {
+    padding: 10px;
+    margin-bottom: -10px;
+  }
+  .section-our-team figure figcaption {
+    padding: 98px 89px;
+    top: 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			     section-happy-clients CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-happy-clients {
+    padding: 15px 0 20px;
+  }
+  .section-happy-clients .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-happy-clients .section-heading h2 {
+    font-size: 29px;
+    margin-bottom: 10px;
+  }
+  .section-happy-clients .section-heading p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail {
+    padding: 25px 15px 10px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption h4 {
+    margin-top: 25px;
+    font-size: 14px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption .footer {
+    padding-top: 5px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption .footer h3 {
+    font-size: 17px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption .footer p {
+    font-size: 14px;
+  }
+  .section-happy-clients .happy-client-carousel .owl-controls {
+    margin-top: 35px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-latest-news CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-latest-news {
+    background-color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  .section-latest-news .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-latest-news .section-heading h2 {
+    font-size: 30px;
+  }
+  .section-latest-news .custom-width {
+    width: 49.5%;
+    display: inline-block;
+  }
+  .section-latest-news .thumbnail {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .section-latest-news .thumbnail .caption {
+    padding: 0;
+  }
+  .section-latest-news .thumbnail .caption h2 {
+    font-size: 22px;
+  }
+  .section-latest-news .thumbnail .caption p {
+    margin-top: 10px;
+  }
+  .section-latest-news .thumbnail .caption .read-more-btn {
+    margin-top: 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			   section-news-letter CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-news-letter {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .section-news-letter .input--filled .input__label-content--manami {
+    left: 20px;
+  }
+  .section-news-letter .input--manami .input__label--manami::after {
+    top: 100%;
+  }
+  .section-news-letter .input {
+    width: 60%;
+    display: inline-block;
+  }
+  .section-news-letter .submit-btn {
+    left: 0px;
+    display: inline-block;
+  }
+  .section-news-letter .submit-btn .button {
+    min-width: 90%;
+    font-size: 16px;
+    top: 3px;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			  section-contact-us CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-contact-us .contact-container {
+    padding: 30px 0;
+  }
+  .section-contact-us .contact-container .custom-width {
+    width: 49.5865879%;
+    display: inline-block;
+  }
+  .section-contact-us .contact-container .contact-info {
+    width: 90%;
+    padding: 36.5px 0;
+  }
+  .section-contact-us .contact-container .contact-info .hidden {
+    display: inline-block !important;
+  }
+  .section-contact-us .map-contact-form {
+    text-align: center;
+  }
+  .section-contact-us .map-contact-form .custom-width {
+    width: 100%;
+    display: inline-block;
+  }
+  .section-contact-us .map-contact-form #map-canvas {
+    height: 250px;
+  }
+  .section-contact-us .map-contact-form .contact-form {
+    position: relative;
+    padding: 0;
+    margin-top: -5px;
+  }
+  .section-contact-us .map-contact-form .contact-form h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #333;
+    font-weight: 700;
+  }
+  .section-contact-us .map-contact-form .contact-form .input {
+    max-width: 90%;
+    width: calc(88%);
+  }
+  .section-contact-us .map-contact-form .contact-form .input--filled .input__label-content--manami {
+    left: -12px;
+  }
+  .section-contact-us .map-contact-form .contact-form .text-area.input--manami .input__label--manami {
+    padding: 0 0 6.36em;
+  }
+  .section-contact-us .map-contact-form .contact-form .text-area.input--filled .input__label-content--manami {
+    top: 65px;
+    position: absolute;
+    left: -12px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			           Footer CSS 				          |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  footer .footer-container {
+    padding: 20px 0 10px;
+  }
+  footer .footer-container ul li {
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+  footer .footer-container ul li a {
+    font-size: 25px;
+    color: #fff;
+  }
+  footer .footer-container p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+/* Tablet Layout: 768px to 991px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  | 						HEADER CSS 						  |
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  header nav.navbar.navbar-default {
+    padding: 20px 0;
+  }
+  header nav.navbar.navbar-default .navbar-header .navbar-brand {
+    font-size: 20px;
+  }
+  header nav.navbar.navbar-default .nav li a {
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 12px;
+  }
+  /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 						HERO UNIT CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .hero-unit {
+    height: 400px;
+    background-size: cover;
+  }
+  .hero-unit .caption {
+    padding: 7% 0 0;
+  }
+  .hero-unit .caption h1 {
+    font-size: 45px;
+  }
+  .hero-unit .caption p {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .hero-unit .caption a {
+    padding: 22.09px 26px 22.09px 32px;
+    font-size: 40px;
+    top: 50px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			section-company-logo CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-company-logo {
+    padding: 20px 0 0;
+  }
+  .section-company-logo ul li {
+    width: 19.299%;
+    padding: 0 10px 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-about-us CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-about-us {
+    background-color: #fff;
+    padding: 5px 0 70px;
+    text-align: center;
+  }
+  .section-about-us .section-heading {
+    padding-bottom: 15px;
+  }
+  .section-about-us .section-heading h2 {
+    font-size: 30px;
+  }
+  .section-about-us .section-heading p {
+    font-size: 18px;
+  }
+  .section-about-us img {
+    display: inline-block;
+  }
+  .section-about-us .about-us-text {
+    text-align: center;
+  }
+  .section-about-us .about-us-text p {
+    font-size: 14px;
+    padding-right: 0;
+    margin-top: 25px;
+  }
+  .section-about-us .about-us-text .read-more-btn {
+    top: 25px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-services CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-services {
+    background-color: #d8d8d8;
+    padding: 5px 0 0px;
+    margin-bottom: 0px;
+  }
+  .section-services .section-heading {
+    padding-bottom: 40px;
+  }
+  .section-services .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-services .section-heading p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .section-services .services-box {
+    text-align: center;
+    display: inline-block;
+  }
+  .section-services .services-box .icon {
+    font-size: 25px;
+    padding: 37.5px;
+    position: relative;
+  }
+  .section-services .services-box .service-feature {
+    padding: 0;
+    float: none;
+  }
+  .section-services .services-box .service-feature h3 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #555;
+    margin-top: 10px;
+  }
+  .section-services .services-box .service-feature p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #555;
+    line-height: 24px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-how-it-work CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-how-it-work {
+    background-color: #fff;
+    padding: 5px 0 10px;
+    margin-bottom: 0px;
+  }
+  .section-how-it-work .section-heading {
+    padding-bottom: 35px;
+  }
+  .section-how-it-work .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-how-it-work .how-it-work-figure {
+    text-align: center;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box {
+    width: 19.72%;
+    float: none;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box:hover {
+    cursor: default;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box .arrow_left-right {
+    display: inline-block;
+    margin-top: 50px;
+    top: -85px;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box .icon {
+    padding: 40px;
+    font-size: 30px;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box h3 {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			     section-pricing CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-pricing {
+    padding: 25px 0 35px;
+  }
+  .section-pricing .section-heading {
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+  }
+  .section-pricing .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-pricing .section-heading p {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0;
+  }
+  .section-pricing .cd-pricing-container {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .section-pricing .cd-pricing-list {
+    margin-top: 6em;
+  }
+  .section-pricing .cd-pricing-list > li {
+    width: 30.55%;
+    margin-right: 30px;
+  }
+  .section-pricing ul.cd-pricing-wrapper {
+    list-style: none;
+  }
+  .section-pricing ul.cd-pricing-wrapper > li {
+    margin-bottom: 0;
+  }
+  .section-pricing ul.cd-pricing-wrapper.cd-pricing-wrapper .cd-pricing-header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .section-pricing ul.cd-pricing-wrapper.cd-pricing-wrapper .cd-pricing-header .cd-price {
+    margin-top: -5px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-some-fun-facts CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-some-fun-facts {
+    padding: 25px 0 0;
+  }
+  .section-some-fun-facts .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-some-fun-facts .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-some-fun-facts .section-heading p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-some-fun-facts .some-fun-fact-list {
+    padding-bottom: 30px;
+  }
+  .section-some-fun-facts .some-fun-fact-list i {
+    font-size: 50px;
+  }
+  .section-some-fun-facts .some-fun-fact-list h2 {
+    margin-top: 5px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			      section-our-team CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-our-team {
+    padding: 30px 0;
+  }
+  .section-our-team .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-our-team .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section-our-team .section-heading p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-our-team figure {
+    padding: 10px;
+    margin-bottom: -10px;
+  }
+  .section-our-team figure figcaption {
+    padding: 42.6px 34px;
+    top: 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			     section-happy-clients CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-happy-clients {
+    padding: 35px 0 40px;
+  }
+  .section-happy-clients .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-happy-clients .section-heading h2 {
+    font-size: 29px;
+    margin-bottom: 10px;
+  }
+  .section-happy-clients .section-heading p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail {
+    padding: 25px 15px 10px;
+    margin: 0 10px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption h4 {
+    margin-top: 25px;
+    font-size: 14px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption .footer {
+    padding-top: 5px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption .footer h3 {
+    font-size: 17px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption .footer p {
+    font-size: 14px;
+  }
+  .section-happy-clients .happy-client-carousel .owl-controls {
+    margin-top: 35px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-latest-news CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-latest-news {
+    background-color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  .section-latest-news .section-heading {
+    padding-bottom: 25px;
+  }
+  .section-latest-news .section-heading h2 {
+    font-size: 30px;
+  }
+  .section-latest-news .thumbnail {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .section-latest-news .thumbnail .caption {
+    padding: 0;
+  }
+  .section-latest-news .thumbnail .caption h2 {
+    font-size: 20px;
+  }
+  .section-latest-news .thumbnail .caption p {
+    margin-top: 10px;
+  }
+  .section-latest-news .thumbnail .caption .read-more-btn {
+    margin-top: 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			   section-news-letter CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-news-letter {
+    padding: 40px 0;
+    text-align: center;
+  }
+  .section-news-letter .input--filled .input__label-content--manami {
+    left: 0px;
+  }
+  .section-news-letter .input--manami .input__label--manami::after {
+    top: 100%;
+  }
+  .section-news-letter .input {
+    width: 70%;
+    display: inline-block;
+    left: -25px;
+  }
+  .section-news-letter .submit-btn {
+    left: 25px;
+    display: inline-block;
+  }
+  .section-news-letter .submit-btn .button {
+    min-width: 90%;
+    font-size: 16px;
+    top: 3px;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			  section-contact-us CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-contact-us .contact-container {
+    padding: 30px 0;
+  }
+  .section-contact-us .contact-container .contact-info {
+    width: 100%;
+    padding: 40px 0;
+  }
+  .section-contact-us .map-contact-form {
+    width: 100%;
+  }
+  .section-contact-us .map-contact-form .custom-width {
+    width: 50%;
+    display: inline-block;
+  }
+  .section-contact-us .map-contact-form .contact-form {
+    padding-left: 3%;
+  }
+  .section-contact-us .map-contact-form .contact-form h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #333;
+    font-weight: 700;
+  }
+  .section-contact-us .map-contact-form .contact-form .input {
+    max-width: 95%;
+    width: calc(98%);
+  }
+  .section-contact-us .map-contact-form .contact-form .input--filled .input__label-content--manami {
+    left: 20px;
+  }
+  .section-contact-us .map-contact-form .contact-form .text-area.input--manami .input__label--manami {
+    padding: 0 0 6.36em;
+  }
+  .section-contact-us .map-contact-form .contact-form .text-area.input--filled .input__label-content--manami {
+    top: 65px;
+    position: absolute;
+    left: 20px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			           Footer CSS 				          |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  footer .footer-container {
+    padding: 30px 0 20px;
+  }
+  footer .footer-container ul li {
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+  footer .footer-container ul li a {
+    font-size: 25px;
+    color: #fff;
+  }
+  footer .footer-container p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+/* Medium Layout: 992x to 1199px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  | 						HEADER CSS 						  |
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 						HERO UNIT CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .hero-unit {
+    height: 400px;
+    background-size: cover;
+  }
+  .hero-unit .caption {
+    padding: 7% 0 0;
+  }
+  .hero-unit .caption h1 {
+    font-size: 45px;
+  }
+  .hero-unit .caption p {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .hero-unit .caption a {
+    padding: 22.09px 26px 22.09px 32px;
+    font-size: 40px;
+    top: 50px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			section-company-logo CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-company-logo ul li {
+    width: 19.299%;
+    padding: 0 15px 10px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-about-us CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-services CSS 					  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-how-it-work CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-how-it-work .how-it-work-figure .icon-box {
+    width: 19.83%;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box .arrow_left-right {
+    top: -90px;
+  }
+  .section-how-it-work .how-it-work-figure .icon-box h3 {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			     section-pricing CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-pricing {
+    padding-bottom: 100px;
+  }
+  .section-pricing .section-heading {
+    margin-bottom: -10px;
+  }
+  .section-pricing .section-heading p {
+    padding: 0 22%;
+  }
+  .section-pricing .cd-pricing-container {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .section-pricing .cd-pricing-list {
+    margin-top: 6em;
+  }
+  .section-pricing .cd-pricing-list > li {
+    width: 31.2%;
+    margin-right: 25px;
+  }
+  .section-pricing ul.cd-pricing-wrapper {
+    list-style: none;
+  }
+  .section-pricing ul.cd-pricing-wrapper > li {
+    margin-bottom: 0;
+  }
+  .section-pricing ul.cd-pricing-wrapper.cd-pricing-wrapper .cd-pricing-header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .section-pricing ul.cd-pricing-wrapper.cd-pricing-wrapper .cd-pricing-header .cd-price {
+    margin-top: -5px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-some-fun-facts CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			      section-our-team CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-our-team figure figcaption {
+    padding: 80px 71.6px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			     section-happy-clients CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-happy-clients .happy-client-carousel .thumbnail {
+    padding: 25px 15px 10px;
+    margin: 0 15px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption h4 {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption .footer {
+    padding-top: 5px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption .footer h3 {
+    font-size: 17px;
+  }
+  .section-happy-clients .happy-client-carousel .thumbnail .caption .footer p {
+    font-size: 14px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			    section-latest-news CSS 				  |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			   section-news-letter CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-news-letter .input--filled .input__label-content--manami {
+    left: 10px;
+  }
+  .section-news-letter .input--manami .input__label--manami::after {
+    top: 100%;
+  }
+  .section-news-letter .input {
+    width: 65%;
+    display: inline-block;
+  }
+  .section-news-letter .submit-btn {
+    left: 40px;
+    display: inline-block;
+  }
+  .section-news-letter .submit-btn .button {
+    min-width: 90%;
+    font-size: 16px;
+    top: 3px;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			  section-contact-us CSS 				      |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  .section-contact-us .contact-container .contact-info {
+    width: 90%;
+  }
+  .section-contact-us .map-contact-form .contact-form {
+    padding-left: 3.25%;
+    padding-bottom: 51px;
+  }
+  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	  | 			           Footer CSS 				          |
+	  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  footer .footer-container {
+    padding: 50px 0 35px;
+  }
+}
