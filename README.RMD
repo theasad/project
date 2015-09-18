@@ -1,0 +1,7 @@
+This is one page template fifomedic 
+This project used
+js
+css
+ajax
+html
+bootstrap 3 framework
