@@ -23,22 +23,7 @@ slicknav.css can be modified to fit website design
 
 <link rel="stylesheet" href="SlickNav/slicknav.css" />
 <script src="SlickNav/jquery.slicknav.min.js"></script>
-Menu Markup
 
-<ul id="menu">
-    <li><a href="#">item 1</a></li>
-    <li><a href="#">item 2</a></li>
-    <li><a href="#">item 3</a></li>
-    <li><a href="#">item 4</a></li>
-</ul>
-Initialize
-
-<script>
-    $(function(){
-        $('#menu').slicknav();
-    });
-</script>
-Options
 
 'label' : 'MENU', // Label for menu button. Use an empty string for no label.
 'duplicate': true, // If true, the mobile menu is a copy of the original.
